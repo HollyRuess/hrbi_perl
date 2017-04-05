@@ -1,8 +1,13 @@
-#!/usr/bin/perl
-###This perl program converts a vcf file (created by tassel5 and filtered by vcftools) into a NEXUS file 
-###./vcf2nexus.pl input.vcf >output.nex
-###Note1: vcf can be compressed
-###Note2: Missing data is coded as "?"; change lines 48 and 54 if you want a different symbol
+#!/usr/bin/perl 
+#####################################################################################################################################################   
+###  title          : vcf2nexus.pl                                                                                                                ###
+###  description    : This perl program converts a vcf file (created by tassel5 and filtered by vcftools) into a NEXUS file.                      ###
+###  author	     : Holly Ruess (Holly.Ruess@ars.usda.gov)                                                                                      ###
+###  date           : 04-05-2017                                                                                                                  ###
+###  version        : 1                                                                                                                           ###   
+###  notes          : vcf can be compressed. Missing data is coded as "?"; change lines 53 and 59 if you want a different character.              ###
+###  usage          : ./vcf2nexus.pl input.vcf >output.nex                                                                                        ###
+#####################################################################################################################################################
 use strict; use warnings;
 
 my ($vcf) = @ARGV;
