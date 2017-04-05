@@ -2,7 +2,7 @@
 #####################################################################################################################################################   
 ###  title          : vcf2nexus.pl                                                                                                                ###
 ###  description    : This perl program converts a vcf file (created by tassel5 and filtered by vcftools) into a NEXUS file.                      ###
-###  author	     : Holly Ruess (Holly.Ruess@ars.usda.gov)                                                                                      ###
+###  author	    : Holly Ruess (Holly.Ruess@ars.usda.gov)                                                                                      ###
 ###  date           : 04-05-2017                                                                                                                  ###
 ###  version        : 1                                                                                                                           ###   
 ###  notes          : vcf can be compressed. Missing data is coded as "?"; change lines 53 and 59 if you want a different character.              ###
