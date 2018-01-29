@@ -12,3 +12,6 @@ This perl program converts a vcf file (created by tassel5 and filtered by vcftoo
 # SNPfilter4ML.pl
 
 This perl program filters a vcf file of SNPs so that the ascertainment bias of Maximum Likelihood may be applied. The filters are either 1) at least 1 homozygous reference SNP, at least 1 homozygous alternate SNP, and at least and 1 heterozygous SNP, 2) if no heterozygous SNPs, then at least 2 homozygous reference SNPs and 2 homozygous alternate SNPs.
+
+# vcf2STRUCTURE_reorder.pl 
+This perl program converts a vcf file (created by tassel5 and filtered by vcftools) into a reordered (optional) Structure format (STRUCTURE 2 line format, A=1,C=2,G=3,T=4,missing=-9). 
