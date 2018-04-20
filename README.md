@@ -15,3 +15,11 @@ This perl program filters a vcf file of SNPs so that the ascertainment bias of M
 
 # vcf2STRUCTURE_reorder.pl 
 This perl program converts a vcf file (created by tassel5 and filtered by vcftools) into a reordered (optional) Structure format (STRUCTURE 2 line format, A=1,C=2,G=3,T=4,missing=-9). 
+
+# SNPcoverage.pl
+This perl program finds the average coverage of the SNPs for each accession (minus missing data) in a vcf file.
+VCF file can be compressed or uncompressed.
+
+# haplotype_count.pl
+This perl program counts the number of times each haplotype appears in vcf file (per accession). 
+Haplotypes are ./., 0/0, 0/1, 1/0, 1/1, or other. VCF file can be compressed or uncompressed.
