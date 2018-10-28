@@ -23,5 +23,3 @@ VCF file can be compressed or uncompressed.
 # haplotype_count.pl
 This perl program counts the number of times each haplotype appears in vcf file (per accession). 
 Haplotypes are ./., 0/0, 0/1, 1/0, 1/1, or other. VCF file can be compressed or uncompressed.
-
-###
